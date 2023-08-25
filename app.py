@@ -47,7 +47,7 @@ def body(model, model_type, selected_features):
     
     introduction()
     st.write(df.head(3))
-    col1, col2 = st.columns((1, 1))
+    col1, col2 = st.beta_columns((1, 1))
 
     with col1:
         plot_placeholder = st.empty()
