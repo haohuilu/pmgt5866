@@ -40,7 +40,7 @@ corresponding to real estate single-family residential apartments in Tehran, Ira
 
 
 def model_selector():
-    model_training_container = st.sidebar.expander("Train a model", expanded=True)
+    model_training_container = st.sidebar.beta_expander("Train a model", True)
     with model_training_container:
         model_type = st.selectbox(
             "Choose a model",
